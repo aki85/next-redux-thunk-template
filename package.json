@@ -1,0 +1,35 @@
+{
+  "name": "next-redux-thunk-template",
+  "version": "1.0.0",
+  "description": "next+redux-thunk+etc template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "aki85",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap3": "^3.3.5",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "isomorphic-ws": "^4.0.1",
+    "lodash": "^4.17.11",
+    "mousetrap": "^1.6.3",
+    "next": "^8.1.0",
+    "next-fonts": "^0.17.0",
+    "next-images": "^1.1.1",
+    "node-sass": "^4.12.0",
+    "querystring": "^0.2.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
