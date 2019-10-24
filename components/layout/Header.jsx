@@ -1,4 +1,4 @@
-import enhancer from '../../redux/allEnhancer'
+import enhancer from '~/redux/enhancer'
 
 const Header = (props) => (
   <header>
