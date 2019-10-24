@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import { Button } from 'react-bootstrap'
-import Layout from '../components/layout/Layout.jsx'
-import enhancer from '../redux/allEnhancer'
+import Layout from '~/components/layout/Layout.jsx'
+import enhancer from '~/redux/enhancer'
 import SampleController from './controller/sample'
 
-import { SAMPLES } from '../utils'
+import { SAMPLES } from '~/utils'
 
 class Sample extends SampleController {
   render() {
@@ -18,7 +18,7 @@ class Sample extends SampleController {
         </Link>
         <br />
         <Button onClick={() => this.reverseSample()}>
-          <i className="fa fa-exchange mr-2"></i>
+          <i className="fa fa-exchange-alt mr-2"></i>
           Reverse Text
         </Button>
         <h1>{samples.sample}</h1>

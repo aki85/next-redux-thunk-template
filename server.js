@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const utils = require('./utils/module')
 const express = require('express')
 const next = require('next')

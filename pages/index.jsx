@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
-import Layout from '../components/layout/Layout.jsx'
-import enhancer from '../redux/allEnhancer'
+import Layout from '~/components/layout/Layout.jsx'
+import enhancer from '~/redux/enhancer'
 import IndexController from './controller/index'
 
 class Index extends IndexController {

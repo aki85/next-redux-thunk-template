@@ -1,6 +1,6 @@
 {
   "name": "next-redux-thunk-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "next+redux-thunk+etc template",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.3.1",
     "bootstrap3": "^3.3.5",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "isomorphic-unfetch": "^3.0.0",
     "isomorphic-ws": "^4.0.1",
@@ -23,6 +24,7 @@
     "next": "^8.1.0",
     "next-fonts": "^0.17.0",
     "next-images": "^1.1.1",
+    "next-redux-wrapper": "^4.0.1",
     "node-sass": "^4.12.0",
     "querystring": "^0.2.0",
     "react": "^16.8.6",
