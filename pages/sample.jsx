@@ -18,7 +18,7 @@ class Sample extends SampleController {
         </Link>
         <br />
         <Button onClick={() => this.reverseSample()}>
-          <i className="fa fa-exchange mr-2"></i>
+          <i className="fa fa-exchange-alt mr-2"></i>
           Reverse Text
         </Button>
         <h1>{samples.sample}</h1>
