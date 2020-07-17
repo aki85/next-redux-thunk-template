@@ -19,7 +19,7 @@
     "express": "^4.16.4",
     "isomorphic-unfetch": "^3.0.0",
     "isomorphic-ws": "^4.0.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "mousetrap": "^1.6.3",
     "next": "^8.1.0",
     "next-fonts": "^0.17.0",
